@@ -1,0 +1,14 @@
+server:
+    port: 9001
+websocket:
+    server:
+        host: 0.0.0.0
+        port: 8089
+        redis:
+            nodes: 127.0.0.1:6379
+            useSingleServer: true
+#spring:
+#    profiles:
+#        active: dev
+
+
